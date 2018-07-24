@@ -1,3 +1,6 @@
+require_relative "../lib/user.rb"
+
+
 class Student< User
 def initialize
   @knowlege = []
@@ -7,9 +10,7 @@ def learn (learning)
 end
 
 
-def knowlege
-  @knowlege
-end
+
 
 
 end
